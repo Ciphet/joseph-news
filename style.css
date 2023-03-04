@@ -1,0 +1,43 @@
+@font-face {
+    font-family:headerfonts ;
+    src: url(assets/img/fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color:hsl(36, 100%, 99%);
+}
+p{
+    font-size: 0.94rem;
+}
+h1{
+    font-size:2.82rem ;
+    font-weight:900;
+    font-family:headerfonts ;
+}
+.container{
+padding:50px;
+}
+
+header{
+    display: flex;
+    flex-direction:row;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+header .links{
+    display: flex;
+    flex-direction: row;
+}
+header .links a{
+    padding: 0px 20px 0px 20px;
+text-decoration: none;
+color:hsl(236, 13%, 42%);
+font-family:headerfont;
+text-transform: capitalize;
+
+}
